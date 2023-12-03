@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <AnaliseAguaLimite />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import AnaliseAguaLimite from '../components/AnaliseAguaLimite'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      AnaliseAguaLimite,
     },
   }
 </script>

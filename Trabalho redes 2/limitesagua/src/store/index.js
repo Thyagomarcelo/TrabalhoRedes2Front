@@ -27,6 +27,10 @@ export default new Vuex.Store({
       },
       UPDATE_LIMITE_AGUA_SEMANA(state, payload){
         state.dadosLimiteAguaSemana = JSON.parse(payload)
+      },
+      RECEBER_ATUALIZACAO_BD(state, payload){
+        state.dadosLimiteAgua.push(payload); 
+        state.dadosLimiteAguaSemana.push(payload);       
       }
   },
   actions: {
